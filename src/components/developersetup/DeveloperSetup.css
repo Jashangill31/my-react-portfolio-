@@ -1,0 +1,36 @@
+/* DeveloperSetup.css */
+.developer-setup {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.developer-setup h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.developer-setup p {
+  font-size: 16px;
+  color: #555;
+}
+
+.developer-setup ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.developer-setup ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.developer-setup code {
+  background-color: #f1f1f1;
+  padding: 2px 4px;
+  font-size: 14px;
+  border-radius: 4px;
+}

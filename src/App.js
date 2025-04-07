@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import BasicInfo from './components/basicInfo/BasicInfo'; // Correct import for BasicInfo
+import Work from './components/work/Work'; // Correct import for Work
+import TechList from './components/techList/TechList'; // Correct import for TechList
+import DeveloperSetup from './components/developersetup/DeveloperSetup';  // Correct uppercase 'D'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BasicInfo />
+      <Work />
+      <TechList />
+      <DeveloperSetup />
     </div>
   );
 }
