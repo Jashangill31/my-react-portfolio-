@@ -1,70 +1,173 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio Website - Jashandeep Kaur
+Welcome to my portfolio website! This project showcases the work I have completed as part of the Full Stack Web Development program at Red River College (RRC) in Manitoba.
 
-## Available Scripts
+This project is built with React and is Dockerized for production deployment. You can follow the steps below to get the project up and running locally or deploy it via Docker.
 
-In the project directory, you can run:
+🚀 Getting Started
+Prerequisites
+Ensure you have the following installed:
 
-### `npm start`
+Docker: To run the app in a containerized environment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Node.js and npm: For local development (if you're not using Docker).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Visual Studio Code (or any text editor of your choice).
 
-### `npm test`
+Installing Dependencies
+To get started, clone the repository and install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy
+git clone https://github.com/your-username/my-react-portfolio.git
+cd my-react-portfolio
+npm install
+Running Locally (Development Mode)
+To start the development server locally, use the following command:
 
-### `npm run build`
+bash
+Copy
+npm start
+Visit http://localhost:3000 to view the app in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app will automatically reload if you make any changes to the code.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Running with Docker
+Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy
+git clone https://github.com/your-username/my-react-portfolio.git
+cd my-react-portfolio
+Build the Docker image:
 
-### `npm run eject`
+bash
+Copy
+docker build -t lastName_firstName_coding_assignment14 .
+Run the Docker container:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy
+docker run -d -p 5575:80 --name lastName_firstName_coding_assignment14 lastName_firstName_coding_assignment14
+Open http://localhost:5575 in your browser to view the deployed portfolio.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📂 Project Structure
+Here’s a quick overview of the directory structure:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy
+/public
+    /favicon.ico
+    /index.html
+    /logo192.png
+    /logo512.png
+    /manifest.json
+/src
+    /App.js
+    /index.js
+    /components
+    /styles
+.gitignore
+Dockerfile
+README.md
+package.json
+📚 Portfolio Sections
+1. Basic Information
+Name: Jashandeep Kaur
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Program: Full Stack Web Development (Red River College, Manitoba)
 
-## Learn More
+Status: International Student
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Passion: Passionate about technology and coding, aiming to build meaningful software solutions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. My Work
+Project 1: React Basics
+This project demonstrates the basics of React, including components, state management, and routing. It served as an introduction to React and helped me understand the fundamentals of structuring a React application.
 
-### Code Splitting
+Project 2: Full-Stack Web Application
+A full-stack application where I integrated React (front-end) with Node.js (back-end). Key features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+User registration and login
 
-### Analyzing the Bundle Size
+CRUD operations using MongoDB
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+RESTful APIs for communication
 
-### Making a Progressive Web App
+💻 Tech Stack
+The technologies used in building this portfolio:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+React: JavaScript library for building the user interface.
 
-### Advanced Configuration
+Node.js: JavaScript runtime environment for back-end development.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+MongoDB: NoSQL database for handling data (for full-stack apps).
 
-### Deployment
+Docker: To containerize the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+JavaScript (ES6): Core language for app development.
 
-### `npm run build` fails to minify
+HTML & CSS: To create the structure and styling.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📄 Developer Setup
+To set up the development environment:
+
+Clone the repository:
+
+bash
+Copy
+git clone https://github.com/your-username/my-react-portfolio.git
+cd my-react-portfolio
+Install dependencies:
+
+bash
+Copy
+npm install
+Start the development server:
+
+bash
+Copy
+npm start
+This will start the server at http://localhost:3000.
+
+📦 Dockerized Deployment
+The project is Dockerized for easy deployment. Here's how to run the app in a containerized environment:
+
+Build the Docker image:
+
+bash
+Copy
+docker build -t lastName_firstName_coding_assignment14 .
+Run the container:
+
+bash
+Copy
+docker run -d -p 5575:80 --name lastName_firstName_coding_assignment14 lastName_firstName_coding_assignment14
+Visit http://localhost:5575 in your browser to view the app.
+
+📝 Important Scripts
+Here are some important npm scripts:
+
+npm start
+Runs the app in development mode. Open http://localhost:3000 to view it in the browser. The page will reload when you make changes.
+
+npm run build
+Builds the app for production in the build folder. It optimizes the app for the best performance, minifies the code, and makes it ready for deployment.
+
+npm test
+Launches the test runner in the interactive watch mode. For more details on running tests, refer to the Create React App documentation.
+
+npm run eject
+If you need to modify the internal configuration of your project, use eject. Be cautious as this is a one-way operation and you won't be able to revert back.
+
+📚 References
+How to Build a Portfolio Website with React
+
+Build a Stunning Portfolio with React JS
+
+📍 Contact
+You can reach me via:
+
+Email: jashandeep8736@gmail.com
+
+GitHub: github.com/Jashangill31
